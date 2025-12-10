@@ -13,7 +13,7 @@ from mutagen.mp3 import MP3
 
 # --- НАСТРОЙКИ ---
 TOKEN = "5916870826:AAF7pPc6IuzdwG50rY7MQz_beYw1nYN5NlY"
-WEBAPP_URL = "https://polled-dayna-noncontingently.ngrok-free.dev"
+WEBAPP_URL = "https://zxc1x1.ru"
 PORT = 8080
 DB_NAME = "music.db"
 
@@ -294,4 +294,5 @@ async def main():
 
 if __name__ == "__main__":
     if sys.platform == 'win32': asyncio.set_event_loop_policy(asyncio.WindowsSelectorEventLoopPolicy())
+
     asyncio.run(main())
